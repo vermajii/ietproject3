@@ -1,0 +1,134 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - project</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">ACADEMICS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="certificate.jpg">
+        <h2>Our Admission Criteria and Eligibility For 2021</h2>
+        
+        <h4>
+            Eligibility For Admission:</h4>
+             <p> Admission is offered to a candidate who has qualified in 10+2 examination and appeared in IIT-JEE examination. Admission process is strictly in accordance with the rules and regulation of Directorate of Technical Education (DTE), Bhopal. Reservation rules are mentioned thereof. Admission shall normally be done in the months of July/August every year. Please regularly check website of DTE Bhopal.</p>
+        <br>
+       <h4> Admission Process :</h4>
+             <p> 
+
+                Admission process shall take place through counselling conducted by DTE, Bhopal through Counselling Authority and its nodal centres in MP.
+                
+                The admitted student shall be required to register for the program in each semester separately as per the schedule announced in the beginning of the semester. Registration shall be closed after an announced stipulated date.
+                
+                 </p>
+        <br>
+        <p>Admission is offered to a candidate who has qualified in 10+2 examination and appeared in IIT-JEE examination. Admission process is strictly in accordance with the rules and regulation of Directorate of Technical Education (DTE), Bhopal. Reservation rules are mentioned thereof. Admission shall normally be done in the months of July/August every year. Please regularly check website of DTE Bhopal..</p>
+        <br>
+        <p>
+            Admission process shall take place through counselling conducted by DTE, Bhopal through Counselling Authority and its nodal centres in MP.
+            
+            </p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Academic Departments</h3>
+            <div>
+                <span>Computer Engineering</span>
+                
+            </div>
+            <div>
+                <span>Information Technology</span>
+                
+            </div>
+            <div>
+                <span>Electronics & Instumentation Engineering</span>
+                
+            </div>
+            <div>
+                <span>Electronics & TeleCommunication Engineering</span>
+              
+            </div>
+            <div>
+                <span>Mechanical Engineering</span>
+            
+            </div>
+            <div>
+                <span>Civil Engineering</span>
+               
+            </div>
+            <div>
+                <span>Applied Science</span>
+                
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Welcoming everyone in an experience that’s more than an education.<br>We prepare students to engage in the world that is and to help bring about a world that ought to be</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Thanks for visiting.</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
